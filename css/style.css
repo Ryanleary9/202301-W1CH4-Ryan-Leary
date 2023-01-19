@@ -87,6 +87,7 @@ main span {
 main p {
   flex-direction: row;
   font-size: 35px;
+  font-weight: bolder;
 }
 
 .container {
