@@ -48,6 +48,21 @@ header nav ul li {
   color: white;
 }
 
+.purchase2 {
+  height: 60px;
+  width: 140px;
+  color: white;
+  background-color: rgb(255, 94, 0);
+  border-color: rgb(255, 94, 0);
+  border-radius: 0px 30px 30px 25px;
+  font-size: large;
+}
+
+.purchase2:hover {
+  background-color: white;
+  color: rgb(255, 94, 0);
+}
+
 body ul {
   display: flex;
   flex-direction: row;
@@ -65,10 +80,15 @@ main h1 {
   color: rgb(255, 94, 0);
   padding-top: 40px;
 }
+main span {
+  display: flex;
+  justify-content: space-between;
+}
 main p {
   flex-direction: row;
   font-size: 35px;
 }
+
 .container {
   position: relative;
   width: 50%;
